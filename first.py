@@ -1,11 +1,9 @@
-import random
+while True:
 
-a = []
+    try:
+        i = int(input('숫자 입력'))
+        break;
+    except ValueError:
+        print('숫자가 아닌 다른 값을 입력하였습니다')
 
-for i in range(100):
-    a.append(random.randrange(1, 100))
-
-a.sort()
-
-print(a[0],a[99])
-
+print(i)

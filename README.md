@@ -1,3 +1,5 @@
 # pythonAI
 
 AI 프로그래밍 기초 실습 
+
+usefile => 4주차 실습 #1

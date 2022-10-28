@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from keras.layers import Activation
+from keras.layers import Activation, Dropout
 from keras.models import Sequential
 from keras.layers.core import Dense
 from keras.datasets import mnist
@@ -18,7 +18,9 @@ y_test = np_utils.to_categorical(y_test, 10)
 NB_CLASSES = 10
 model = Sequential()
 model.add(Dense(units=128, input_dim=data_size, activation = 'relu'))
+model.add(Dropout(0.25))
 model.add(Dense(units=128, activation = 'relu'))
+model.add(Dropout(0.25))
 model.add(Dense(units=10, activation = 'softmax'))
 
 model.summary()

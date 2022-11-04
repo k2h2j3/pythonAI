@@ -7,3 +7,5 @@ usefile => 4주차 실습 #1
 usefile => 4주차 실습 #2
 
 kerastest => 9주차 실습(Mnist AI 모델)
+
+cnnmodel => cnn 실습 모델

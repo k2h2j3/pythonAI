@@ -13,3 +13,4 @@ cnn_model2 => cnn 실습 모델2(sifar-10)
 
 rnn_model => rnn 실습 모델
 rnn_model2 => rnn 실습 모델(LSTM)
+rnn_model3 = > keras rnn 실습 모델(sofrmax)

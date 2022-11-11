@@ -10,3 +10,5 @@ kerastest => 9주차 실습(Mnist AI 모델)
 
 cnn_model => cnn 실습 모델(Mnist)
 cnn_model2 => cnn 실습 모델2(sifar-10)
+
+rnn_model => rnn 실습 모델
